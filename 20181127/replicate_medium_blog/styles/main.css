@@ -1,0 +1,13 @@
+.sentence{
+    line-height: 35px;
+    font-size: 1.3em;
+    font-family: 'PT Serif', serif;
+    margin-bottom: 5%;
+}
+
+h5{
+    color:rgb(148, 148, 148);
+    text-align: center;
+    margin: 0 auto 5% auto;
+    padding-bottom:5px;
+}

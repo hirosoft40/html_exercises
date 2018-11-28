@@ -1,0 +1,38 @@
+.faceImg{
+    overflow: hidden;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: inline;
+}
+.photo{
+    display: inline;
+}
+.authorDetail{
+    margin-left: 5%;
+    display: inline-block;
+    color:rgb(148, 148, 148);
+    font-weight: bold;
+    line-height: 25px;
+} 
+.name{
+    color: #000;
+}
+
+header{
+    margin-bottom: 3%;
+}
+
+button{
+    color:rgb(6, 170, 6);
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px rgb(6, 170, 6) solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 5px;
+}
+span{
+    margin-bottom:10px;
+}
