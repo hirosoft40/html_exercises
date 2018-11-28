@@ -7,35 +7,50 @@
     <title>Document</title>
     <style>
         body{
-            margin:0;
+            box-sizing: border-box;
         }
         .header{
             background-color: coral;
-            height: 15%;
-            display: inline-block;
+            height: 10vh;
         }
         .sidebar{
             background-color:orangered;
             width: 300px;
-            float: left
+            height: 300px;
+            float: left;
         }
         .main{
             background-color: cornflowerblue;
-            width: 1100px;
-            float: right;
+            width: 78%;
+            height: 50vh;
+            float: left;
         }
         .footer{
+            position: fixed;
+            bottom: 0;
             background-color:lightgreen;
-            bottom:0;
-            display: block;
-            height: 15%;
+            width: 100%;
+            height: 10vh;
+            z-index: 3;
+
+        }
+        .clear{
+            clear: both;
         }
     </style>
 </head>
 <body>
    <div class="header">Header</div>
-   <div class="sidebar">sidebar 300px, Column1</div>
-   <div class="main">Content Remaining Width, Column2</div>
+   <div>
+    <div class="sidebar">
+        Sidebar 300px, Column1
+        <div class="clear"></div>
+    </div>
+    <div class="main">
+        Content Remaining Width, Column2
+        <div class="clear"></div>
+        </div>
+    </div>
    <div class="footer">Footer</div>
 </body>
 </html>
