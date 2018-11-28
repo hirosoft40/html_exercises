@@ -1,0 +1,14 @@
+/* max 3 fonts */
+body{
+    margin: 0%;
+}
+
+.bigFont{
+    font-size:50px;
+}
+.mediumFont{
+    font-size:20px;
+}
+.whiteFont{
+    color: #fff;
+}
