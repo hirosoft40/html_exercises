@@ -2,19 +2,36 @@
     box-sizing: border-box;
     margin:0;
     text-align: center;
+    color:#fff;
 }
 .container{
+    margin:5px;
     display:flex;
-    border: 5px solid green;
     width: 1090px;
-    height: 700px;
-    flex-direction: column;
-    
-
+    height: 706px;
+    flex: row wrap;
+    justify-content: flex-start;
 }
 .threeBoxSetting{
     height:700px;
-    width:370px;
+    width:360px;
+}
+
+.pushUp{
+    align-self: flex-start;
+}
+.floatRight{
+    float:right;
+}
+.floatLeft{
+    float: left;
+}
+.flex{
+    flex:1;
+}
+
+.border{
+    border: 4px solid black;
 }
 .white{
     background-color:#fff;
@@ -47,15 +64,28 @@
     display: inline-block;
 }
 div{
-    border: 1.5px solid black;
     height: 70px;
 }
 .rectangleLongSide{
     height:70px;
-    width:210px;
+    width:220px;
 }
+.topLeftBoxSideLong{
+    height:70px;
+    width:140px;
+}
+.topLeftBoxSideLong2{
+    height:70px;
+    width:220px;
+}
+
 .rectangleLongColumn{
     height:210px;
+    width:80px;
+}
+
+.rectangleLongColumn70_140{
+    height:140px;
     width:70px;
 }
 .halfMidSquareSide{
@@ -64,14 +94,23 @@ div{
 }
 .halfMidSquareColumn{
     height:140px;
-    width: 70px;
+    width: 80px;
 }
-.sideways{
-    align-self: flex-end;
+
+.smallSquare90{
+    height:70px;
+    width: 90px;
 }
-.pushUp{
-    align-self: flex-start;
+.midSquare90{
+    height:140px;
+    width: 180px;
 }
-.floatRight{
-    float:right;
+.halfMidSquareColumn90{
+    height:140px;
+    width: 90px;
+
 }
+.halfMidSquareSide90{
+    height:70px;
+    width: 180px;
+

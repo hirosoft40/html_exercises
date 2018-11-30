@@ -1,0 +1,33 @@
+.centerTopLeftDiv{
+    height:350px;
+    width:180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    display: inline-block;
+}
+.centerTopRightDiv{
+    height:350px;
+    width:180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    display: inline-block;
+}
+.centerBottomLeftDiv{
+    height:350px;
+    width:180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    display: inline-block;
+
+}
+.centerBottomRightDiv{
+    height:350px;
+    width:180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    display: inline-block;
+}

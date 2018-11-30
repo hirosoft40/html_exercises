@@ -1,0 +1,30 @@
+.rightBoxSetting{
+    height:700px;
+    width:360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.divSideLong{
+    display: flex;
+    flex-direction: row;
+    height:70px;
+    width:360px;
+    justify-content: flex-start;
+}
+.columnVeryRight{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height:630px;
+    width:360px;
+    display: inline-block;
+}
+.midSmallDiv{
+    height:350px;
+    width:140px;
+    display: flex;
+    flex-flow: column wrap;
+    display: inline-block;
+
+}

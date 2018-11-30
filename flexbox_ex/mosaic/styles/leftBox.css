@@ -1,17 +1,40 @@
+.divSideLong{
+    display: flex;
+    flex-direction: row;
+    height:70px;
+    width:360px;
+    justify-content: flex-start;
+}
 .columnVeryLeft{
-    background-color: blueviolet;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    height:570px;
+    height:560px;
     width:80px;
     display: inline-block;
 }
 .columnSecondFromLeft{
-    height:570px;
-    width:282px;
+    height:560px;
+    width:280px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     display: inline-block;
+}
+.columnSecondFromLeftSmall{
+    height:280px;
+    width:140px;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: flex-end;
+    display: inline-block;
+}
+.leftBottomLong{
+    display: flex;
+    flex-direction: row;
+    height:70px;
+    width:360px;
+    justify-content: flex-start;
+    position: relative;
+    top:-4px;
 }

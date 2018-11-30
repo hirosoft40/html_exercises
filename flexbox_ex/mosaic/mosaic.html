@@ -1,38 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel='stylesheet' type='text/css' href='styles/mosaic.css'>
     <link rel='stylesheet' type='text/css' href='styles/leftBox.css'>
+    <link rel='stylesheet' type='text/css' href='styles/center.css'>
+    <link rel='stylesheet' type='text/css' href='styles/rightBox.css'>
+
+
     <title>Document</title>
 </head>
+
 <body>
     <div class="container">
+        <!-- Left box -->
         <div class="threeBoxSetting">
-            <div class ="halfMidSquareSide inline">1</div>
-            <div class ="rectangleLongSide yellow inline sideways">2</div>
-            <div class='columnVeryLeft inline'>
-                <div class ="halfMidSquareColumn inline">3</div>
-                <div class ="rectangleLongColumn inline pushUp">5</div>
-                <div class ="rectangleLongColumn inline pushUp">5</div>
+            <div class="divSideLong">
+                <div class="topLeftBoxSideLong inline border">1</div>
+                <div class="topLeftBoxSideLong2 inline border">2</div>
             </div>
-            <div class ='columnSecondFromLeft inline'>
-                <div class ="red bigSquare inline">4</div>
-                <div class ="black midSquare inline">6</div>
-                <div class ="halfMidSquareSide inline">7</div>
-                <div class ="halfMidSquareSide inline">8</div>
-                <div class ="midSquare inline">9</div>
-                <div class ="black inline">10</div>
+            <div class='columnVeryLeft inline floatLeft'>
+                <div class="halfMidSquareColumn inline border">3</div>
+                <div class="rectangleLongColumn inline pushUp border">4</div>
+                <div class="rectangleLongColumn inline pushUp border">5</div>
             </div>
-            <div class ="halfMidSquare inline">11</div>
-            <div class ="">13</div>
-            <div class ="">14</div>
+            <div class='columnSecondFromLeft inline'>
+                <div class="red bigSquare inline floatLeft border"></div>
+
+                <div class="columnSecondFromLeftSmall inline floatLeft">
+                    <div class="black midSquare inline border"></div>
+                    <div class="midSquare inline border ">8</div>
+                </div>
+                <div class="columnSecondFromLeftSmall floatLeft">
+                    <div class="halfMidSquareSide inline border">9</div>
+                    <div class="halfMidSquareSide inline border">10</div>
+                    <div class="black halfMidSquareSide inline border"></div>
+                    <div class="halfMidSquareSide inline border">12</div>
+                </div>
+            </div>
+            <div class="leftBottomLong">
+                <div class="rectangleLongSide inline floatLeft border">13</div>
+                <div class="black smallSquare inline border"></div>
+                <div class="smallSquare inline border">15</div>
+            </div>
         </div>
-        <div class="threeBoxSetting"></div>
-        <div class="threeBoxSetting"></div>
+        <!-- center box -->
+        <div class="threeBoxSetting">
+            <div class="centerTopLeftDiv inline floatLeft">
+                <div class="black smallSquare90 border inline floatLeft"></div>
+                <div class="smallSquare90 border inline">c2</div>
+                <div class="yellow midSquare90 border"></div>
+                <div class="halfMidSquareColumn90 border inline floatLeft">c4</div>
+                <div class="halfMidSquareColumn90 border inline">c5</div>
+            </div>
+            <div class="centerTopRightDiv inline ">
+                <div class="red midSquare90 border"></div>
+                <div class="blue midSquare90 border"></div>
+                <div class="halfMidSquareSide90 border inline">c5</div>
+            </div>
+            <div class="centerBottomLeftDiv inline floatLeft">
+                <div class="halfMidSquareSide90 border inline">c5</div>
+                <div class="red midSquare90 border"></div>
+                <div class="blue midSquare90 border"></div>
+            </div>
+            <div class="centerBottomRightDiv inline ">
+                <div class="halfMidSquareColumn90 border inline floatLeft">c4</div>
+                <div class="halfMidSquareColumn90 border inline">c5</div>
+                <div class="yellow midSquare90 border"></div>
+                <div class="yellow halfMidSquareSide90 border inline"></div>
+            </div>
+        </div>
+
+        <!-- Right box -->
+        <div class="rightBoxSetting inline">
+            <div class='columnVeryRight inline'>
+                <div class = "midSmallDiv inline floatLeft">
+                    <div class="rectangleLongColumn70_140 inline border floatLeft">r1</div>
+                    <div class="yellow rectangleLongColumn70_140 inline border floatLeft">r2</div>
+                    <div class="black halfMidSquareSide inline border floatLeft">r6</div>
+                    <div class="halfMidSquareSide inline border floatLeft">r6</div>
+                    <div class="halfMidSquareSide inline border floatLeft">r6</div>
+                </div>
+                <div class="topLeftBoxSideLong2 inline border">r3</div>
+                <div class="midSquare inline border floatLeft">r4</div>
+                <div class="black halfMidSquareSide inline border floatLeft"></div>
+                <div class="yellow rectangleLongColumn inline border"></div>
+                <div class="black halfMidSquareSide inline border floatLeft"></div>
+                <div class="red bigSquare inline floatLeft border"></div>
+                <div class="rectangleLongColumn inline border">5</div>
+                <div class="halfMidSquareColumn inline border">3</div>
+            </div>
+            <div class="divSideLong">
+                <div class="rectangleLongSide inline floatLeft border">13</div>
+                <div class="topLeftBoxSideLong inline border">1</div>
+            </div>
+        </div>
     </div>
-    
+
 </body>
+
 </html>
