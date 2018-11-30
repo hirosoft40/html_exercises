@@ -1,0 +1,17 @@
+.columnVeryLeft{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height:570px;
+    width:80px;
+    display: inline-block;
+}
+.columnSecondFromLeft{
+    height:570px;
+    width:282px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    display: inline-block;
+}

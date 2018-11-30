@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    text-align: center;
+}
+.container{
+    display:flex;
+    border: 5px solid green;
+    width: 1090px;
+    height: 700px;
+    flex-direction: column;
+    
+
+}
+.threeBoxSetting{
+    height:700px;
+    width:370px;
+}
+.white{
+    background-color:#fff;
+}
+.red{
+    background-color:red;
+}
+.yellow{
+    background-color:yellow;
+}
+.black{
+    background-color:black;
+}
+.blue{
+    background-color:rgb(0, 183, 255);
+}
+.midSquare{
+    height: 140px;
+    width:140px;
+}
+.smallSquare{
+    height: 70px;
+    width:70px;
+}
+.bigSquare{
+    height:280px;
+    width:280px;
+}
+.inline{
+    display: inline-block;
+}
+div{
+    border: 1.5px solid black;
+    height: 70px;
+}
+.rectangleLongSide{
+    height:70px;
+    width:210px;
+}
+.rectangleLongColumn{
+    height:210px;
+    width:70px;
+}
+.halfMidSquareSide{
+    height: 70px;
+    width:140px;    
+}
+.halfMidSquareColumn{
+    height:140px;
+    width: 70px;
+}
+.sideways{
+    align-self: flex-end;
+}
+.pushUp{
+    align-self: flex-start;
+}
+.floatRight{
+    float:right;
+}
