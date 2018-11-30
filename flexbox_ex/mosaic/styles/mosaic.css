@@ -26,10 +26,6 @@
 .floatLeft{
     float: left;
 }
-.flex{
-    flex:1;
-}
-
 .border{
     border: 4px solid black;
 }
@@ -113,4 +109,14 @@ div{
 .halfMidSquareSide90{
     height:70px;
     width: 180px;
-
+}
+.moveUp{
+    position: relative;
+    top:-4px;
+}
+.blackback{
+    background-color: black;
+}
+.whiteBack{
+    background-color: #fff;
+}
