@@ -1,0 +1,20 @@
+.height10 {
+    height: 30vh;
+}
+
+.marginTopBottom10 {
+    margin: 10px auto;
+
+}
+
+.dropdown {
+    background: transparent;
+    color: rgb(209, 207, 204);
+    font-weight: bold;
+    border: none;
+}
+
+.navbar-fixed-top.scrolled {
+    background-color: #333 !important;
+    transition: background-color 200ms linear;
+}
