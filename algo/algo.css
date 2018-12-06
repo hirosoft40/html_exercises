@@ -1,0 +1,99 @@
+.square{
+  width:40px;
+  border-bottom: 40px solid olive;
+}
+.rectangle{
+  box-sizing: border-box;
+  margin-top: 10px;
+  width: 130px;
+  border-bottom: 80px solid tomato;
+}
+.oval{
+  width: 130px;
+  height: 100px;
+  border-radius: 80%; 
+  background-color: aqua;
+}
+
+.circle {
+    width: 0;
+    height: 0;
+    border-radius: 50%; 
+    border: 50px solid coral;
+  }
+
+.trianglePointDown{
+  margin-top: 10px;
+  width: 0;
+  height: 0;
+  border-top: 100px solid paleturquoise;
+  border-right: 50px solid transparent;
+  border-left: 50px solid transparent;
+}
+  
+.trianglePointLeft{
+  margin-top: 10px;
+  width: 0;
+  height: 0;
+  border-right: 100px solid paleturquoise;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+}
+.rightTriangle{
+  margin-top: 10px;
+  width: 0;
+  height: 0;
+  border-right: 100px solid paleturquoise;
+  border-bottom: 100px solid paleturquoise;
+  border-top: 100px solid transparent;
+  border-left: 100px solid transparent;
+
+}
+.trapezoid{
+  margin-top: 10px;
+  width: 70px;
+  height: 30px;
+  border-bottom: 100px solid olivedrab;
+  border-right: 30px solid transparent;
+  border-left: 30px solid transparent;
+}
+.sixPointingStar{
+  height:110px;
+  width:100px; 
+}
+.squareDiamond{
+  margin: 10px;
+  height:100px;
+  width: 100px;
+  transform: rotate(45deg);
+  border-top: 100px solid black;
+} 
+.trianglePointUp{
+  position: relative;
+  top:80px;
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid paleturquoise;
+  border-right: 50px solid transparent;
+  border-left: 50px solid transparent;
+}
+
+/* for packman */
+.packman{
+  height:110px;
+  width:110px;
+  display: flex;
+  flex-direction: row;
+}
+.relative{
+  position: relative;
+  left: -50px;
+}
+.packmanTriange{
+  margin-top: 10px;
+  width: 0;
+  height: 0;
+  border-right: 50px solid white;
+  border-top: 40px solid transparent;
+  border-bottom: 45px solid transparent;  
+}
