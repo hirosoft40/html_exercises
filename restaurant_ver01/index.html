@@ -16,27 +16,28 @@
 </head>
 
 <body>
+	<!-- /	<div class="container-fluid d-flex px-0 main"> -->
 	<header>
 		<div class="row d-flex justify-content-center fixed-top veryTop">
-			<span>Tel: 281-277-2001</span><span class="ml-3">11557 South Hwy.6 @ W. Airport Blvd., Sugar Land, TX 77478
+			<span class='mr-sm-3'>Tel: 281-277-2001</span><span>11557 South Hwy.6 @ W. Airport Blvd., Sugar Land, TX 77478
 			</span>
 		</div>
-		<nav class="navbar top4down navbar-expand-md d-flex justify-content-center navbar-dark bg-black fixed-top navbar-fixed-top">
+		<nav class="navbar top4down navbar-expand-sm navbar-dark fixed-top navbar-fixed-top">
 			<a class="navbar-brand" href="index.html">
 				<img src="img/logo.png" width="100%" height="100%" />
 			</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-				aria-expanded="false" aria-label="Toggle navigation" >
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navLink" aria-controls="collapsibleNavId"
+			 aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-			<div class="collapse navbar-collapse" id="collapsibleNavId">
-				<ul class="navbar-nav">
-					<li class="nav-item active mx-5">
-						<a class="nav-link navText"href="index.html"> Home <span class="sr-only">(current)</span></a>
+			<div class="collapse navbar-collapse d-flex" id="navLink">
+				<ul class="navbar-nav ">
+					<li class="nav-item active mx-lg-5 px-lg-3 mr-md-3">
+						<a class="nav-link navText" href="index.html"> Home <span class="sr-only">(current)</span></a>
 					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle navText" href="#" id="navbarDropdownMenuLink"
-							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<li class="nav-item dropdown mr-lg-5 mr-md-3">
+						<a class="nav-link dropdown-toggle navText" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+						 aria-haspopup="true" aria-expanded="false">
 							Menu
 						</a>
 						<div class="dropdown-menu dropdown" aria-labelledby="navbarDropdownMenuLink">
@@ -48,10 +49,10 @@
 							<a class="dropdown-item dropdown" href="drinks.html">Drinks</a>
 						</div>
 					</li>
-					<li class="nav-item mx-5">
-						<a class="nav-link navText" href="directions.html" >Directions</a>
+					<li class="nav-item mr-lg-5 mr-md-3">
+						<a class="nav-link navText" href="directions.html">Directions</a>
 					</li>
-					<li class="nav-item pr-4">
+					<li class="nav-item pr-4 mr-lg-5 mr-md-3">
 						<a class="nav-link navText" href="#">Reservation</a>
 					</li>
 				</ul>
@@ -59,53 +60,40 @@
 		</nav>
 	</header>
 	<main>
-		<!-- <main class="mainImage"> -->
-		<div class="overlay">
+		<div class="row d-flex overlay">
 		</div>
 		<div class="textOverlay"></div>
 
 		<div id="carousel" class="carousel slide images" data-ride="carousel">
-			<div class="carousel-inner">
+			<div class="carousel-inner d-flex">
 				<div class="carousel-item active">
-					<img class="d-block img-fluid" src="img/mainphoto1.jpeg" alt="First slide">
+					<img class="d-block img-fluid" src="img/mainphoto3.jpeg" alt="First slide">
 				</div>
 				<div class="carousel-item">
-					<img class="d-block img-fluid" src="img/mainphoto2.jpeg" alt="Second slide">
+					<img class="d-block img-fluid" src="img/mainphoto1.jpeg" alt="Second slide">
 				</div>
 				<div class="carousel-item">
-					<img class="d-block img-fluid" src="img/mainphoto3.jpeg" alt="Third slide">
+					<img class="d-block img-fluid" src="img/mainphoto2.jpeg" alt="Third slide">
 				</div>
 			</div>
 		</div>
 
 		<div class="review">
-			<div class='lunchDinner'>Lunch</div>
-			<ul class="list-unstyled">
-				<li><span class="mr3rem">Monday - Friday</span>11:00 AM - 03:00 PM</li>
-				<li><span class="mr2rem">Saturday - Sunday</span>11:30 AM - 03:00 PM</li>
-			</ul>
-			<div class='lunchDinner'>Dinner</div>
-			<ul class="list-unstyled">
-				<li><span class="mr2rem">Monday - Thursday</span>05:00 PM - 09:30 PM</li>
-				<li><span class="mr3rem">Friday - Saturday</span>05:00 PM - 10:00 PM</li>
-				<li><span class="mr7rem">Sunday</span>05:00 PM - 09:00 PM</li>
-			</ul>
-
-
+			<p class='lunchDinner'>Lunch</span>
+				<ul class="list-unstyled">
+					<li><span class="mr2rem">Monday - Friday</span>11:00 AM - 03:00 PM</li>
+					<li><span class="mr1rem">Saturday - Sunday</span>11:30 AM - 03:00 PM</li>
+				</ul>
+				<p class='lunchDinner'>Dinner</p>
+				<ul class="list-unstyled">
+					<li><span class="mr1rem">Monday - Thursday</span>05:00 PM - 09:30 PM</li>
+					<li><span class="mr2rem">Friday - Saturday</span>05:00 PM - 10:00 PM</li>
+					<li><span class="mr6rem">Sunday</span>05:00 PM - 09:00 PM</li>
+				</ul>
 		</div>
-		<!-- <div class="review">
-      Houston Cronicle<br>
-      Dining Guide <br>
-      Surrender to the culinary charms of Thai Siam<br>
-      <br>
-      Forget all those high-buffert version of htis tropical flavor. At retty and proper Thai Siam, the coconut ice
-      cream has delightfully light, snowy texture that is almost crystalline. Even with teeny-tiny bits of coconut
-      gelatin stewn throught to heighten the interest evel, it never cloys. And the presentation, in a bent-stem
-      sea-foam glass with apaper parasol planted on top, is bout to bring smiles.
-    </div> -->
 	</main>
 	<footer></footer>
-
+	<!-- </div> -->
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
