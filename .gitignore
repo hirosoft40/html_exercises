@@ -1,2 +1,3 @@
 # ignore folder under lecture
 lecture/
+.DS_Store
