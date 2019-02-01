@@ -7,7 +7,7 @@ Here are some of my favorite assignments.
 <a href='https://github.com/hirosoft40/html_exercises/tree/master/assignments/mosaic'>Github Link</a>
 </p>
 <h5>Screenshot</h5> 
-<img src = 'screenshots/mosaic.png'>
+<img src = 'screenshots/mosaic.png' width="70%">
 
 <h3>Chess Board</h3>
 <p>I have replicated Chess Board using flexbox. After finishing Mosaic homework, I felt this was so much easier.
@@ -15,12 +15,12 @@ Here are some of my favorite assignments.
 <a href='https://github.com/hirosoft40/html_exercises/tree/master/assignments/chess'>Github Link</a>
 </p>
 <h5>Screenshot</h5> 
-<img src = 'screenshots/chess.png'>
+<img src = 'screenshots/chess.png' width="70%">
 
 
 <h3>Pixel Art</h3>
 <p>I have never imagined that we could recreate Mario with html and it was eye opening and fun!
 <a href='https://github.com/hirosoft40/html_exercises/blob/master/assignments/bootstrap_ex/pixelArt.html'>Github Link</a></p>
 <h5>Screen shot</h5> 
-<img src = 'screenshots/pixelart.png'>
+<img src = 'screenshots/pixelart.png' width="70%">
 
