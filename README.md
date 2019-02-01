@@ -11,7 +11,6 @@ Here are some of my favorite assignments.
 
 <h3>Chess Board</h3>
 <p>I have replicated Chess Board using flexbox. After finishing Mosaic homework, I felt this was so much easier.
-
 <a href='https://github.com/hirosoft40/html_exercises/tree/master/assignments/chess'>Github Link</a>
 </p>
 <h5>Screenshot</h5> 
